@@ -1,0 +1,4 @@
+.root { position:relative; display:inline-block; width:119px; height:35px; }
+@media (min-width:600px) {
+  .root { width:169px; height:50px; }
+}

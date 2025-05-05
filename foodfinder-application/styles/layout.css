@@ -1,0 +1,9 @@
+.layout-grid {
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: space-between;
+    margin: 0 auto; max-width: 800px; padding: 0 1rem; width:100%;
+  }
+  @media (min-width:600px) {
+    .layout-grid { flex-direction: row; padding:0 2rem; }
+  }
+  

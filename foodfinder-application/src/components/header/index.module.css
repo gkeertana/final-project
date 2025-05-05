@@ -1,0 +1,21 @@
+/* components/header/index.module.css */
+.root {
+  background: white;
+  border-bottom: 1px solid #eaeaea;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root .layout-grid {
+  display: flex;
+  align-items: center;
+  gap: 1rem;             /* space between logo and text */
+}
+
+.root span {
+  font-size: 2rem;       /* make the text big */
+  font-weight: bold;
+  text-transform: uppercase;
+}
